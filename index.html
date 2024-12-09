@@ -4,9 +4,236 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>CVenLigne</title>
 </head>
 <body>
-    <p>Couco les amis</p>
+    <div class="warrap">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+        <div class="book">
+
+            <!-- Page 1 (Profil) -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="../CvenLengne/image/photo ban .png" alt="photo ban">
+                    <h1>AL FARTOUSSI BAN</h1>
+                    <h3>Développeur web et web mobile</h3>
+                    <p>Curieuse, persévérante et autonome, 
+                        avec une solide expérience en développement (Java/JEE, Spring, React, SQL) 
+                        et une bonne maîtrise des méthodologies Agile/Scrum.
+                        Trilingue (arabe natif, anglais B1), je m’adapte aisément aux environnements variés,
+                         en télétravail ou en présentiel.
+                    </p>
+                    <div class="btm-box">
+                        <a href="./mon cv/CV_2024-12-05_BAN_ALFARTOUSSI .pdf" class="btn">Téléchargez CV</a>
+                        <a href="#" class="btn conact-me">Contactez-moi</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pages 2 et 3 (Expériences et Formation) -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- Page 2 (Expériences) -->
+                <div class="page-front">
+                    <h1 class="title">Diplômes et Formations</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>2024 - 2025</span>
+                            <h3>Développeur Web et Web Mobile</h3>
+                            <p>AFCI à Villeneuve-d'Ascq</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>2023 - 2024</span>
+                            <h3>Concepteur et Développeur  d'Applications</h3>
+                            <p>ID FORMATION à Wasquehal</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>2023 - 2023</span>
+                            <h3>Module de spécialisation Développement D’Applications</h3>
+                            <p>ID FORMATION  à Roubaix</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>2021 - 2022</span>
+                            <h3>Concepteur et Développeur  d'Applications</h3>
+                            <p>Sofip a Roubaix </p>
+                        </div>
+                        
+                        <!-- Ajouter d'autres expériences ici -->
+                    </div>
+                    <span class="number-page">1</span>
+                    <!-- Bouton pour tourner à la page suivante -->
+                    <span class="nexrprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right-circle'></i>
+                    </span>
+                </div>
+
+                <!-- Page 3 (Formation) -->
+                <div class="page-back">
+                    <h1 class="title">Expériences professionnelles</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>2017 - 2020</span>
+                            <h3>Gérante Suiss French4 à Lille</h3>
+                            <p>spécialisée dans le secteur d'activité du conseil en systèmes et logiciels informatiques.</p>
+                        </div>
+        
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>2011 à 2013</span>
+                            <h3>Chef d’équipe BING SERVICE à Roubaix</h3>
+                            <p>spécialisée dans le secteur d'activité du conseil en systèmes et logiciels informatiques.</p>
+                        </div>
+                
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bx-calendar'></i>e 2003 - 2006</span>
+                            <h3>Directrice CALLE WORLD à Villeneuve d'Ascq</h3>
+                            <p>
+                                Gérante De Téléboutique en Informatique et Téléphonique .</p>
+                        </div>
+                        <!-- Ajouter d'autres formations ici -->
+                    </div>
+                    <span class="number-page">2</span>
+                    <!-- Bouton pour revenir à la page précédente -->
+                    <span class="nexrprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left-circle'></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Pages 4 et 5 (Mes objets et Mes compétences) -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- Page 4 (Mes Objets) -->
+                <div class="page-front">
+                    <h1 class="title">Mes Service</h1>
+                    <div class="service-box">
+                        <div class="services-content">
+                      <i class="bx bx-code-alt"></i>
+                      <h3>Web DEvelopent web et web mobile</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                      </div>
+                      <div class="services-content">
+                        <i class='bx bx-bar-chart-alt'></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="services-content">
+                            <i class="bx bx-code-alt"></i>
+                            <h3>Concepteur développeur d'applications (CDA)</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                            <div class="services-content">
+                                <i class="bx bx-search"></i>
+                                <h3>SEO</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                </div>
+                    </div>
+                    <span class="number-page">3</span>
+                    <!-- Bouton pour tourner à la page suivante -->
+                    <span class="nexrprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right-circle'></i>
+                    </span>
+                </div>
+
+                <!-- Page 5 (Mes Compétences) -->
+                <div class="page-back">
+                    <h1 class="title">Mes Compétences</h1>
+                    <div class="skille-box">
+                      <div class="skills-content">
+                            <h3>Front-End</h3>
+                           <div class="content">
+                               <span><i class='bx bxl-html5'></i>HTML</span>
+                               <span><i class='bx bxl-css3' ></i>CSS</span>
+                               <span><i class='bx bxl-javascript'></i>JS</span>
+                               <span><i class='bx bxl-react' ></i>RactTys</span>
+                               <span><i class='bx bxl-angular'></i>Angular</span>
+                              
+                          </div>
+                     </div>
+                     <div class="skills-content">
+                        <h3>Bacl-End</h3>
+                          <div class="content">
+                           <span><i class='bx bxl-php'></i>PHP</span>
+                           <span><i class='bx bxl-java'></i>Java</span>
+                         </div>
+                 </div>
+                 <div class="skills-content">
+                    <h3>UI/UX Design</h3>
+                   <div class="content">
+                       <span><i class='bx bxl-figma'></i>Figma</span>
+                     
+                  </div>
+                    </div>
+                  
+                </div>
+                <span class="number-page">4</span>
+                <!-- Bouton pour revenir à la page précédente -->
+                <span class="nexrprev-btn back" data-page="turn-2">
+                    <i class='bx bx-chevron-left-circle'></i>
+                </span>
+            </div>
+            </div>
+            <div class="book-page page-right turn" id="turn-3">
+                <div class="page-front">
+                    <h1 class="title">Mes objet</h1>
+                    <div class="service-box">
+                    <div class="services-content" data-image="pendu.PNG">
+                        <i class='bx bx-game'></i>
+                        <h3>Pendu</h3>
+                        <p>Un jeu interactif pour tester vos compétences en devinette.</p>
+                        <a href="https://codebanalfa.github.io/jou-pendur/" class="btn" target="_blank">savoir plus</a>
+                    </div>
+                    <div class="services-content" data-image="paint.PNG">
+                        <i class="bx bx-paint"></i>
+                        <h3>Paint</h3>
+                        <p>Un outil simple et efficace pour dessiner et peindre.</p>
+                        <a href="./Paint/index.html" class="btn" target="_blank">savoir plus</a>
+
+                    </div>
+                    <div class="services-content" data-image="immobilier.PNG">
+                        <i class="bx bx-building-house"></i>
+                        <h3>Immobilier</h3>
+                        <p>Une plateforme pour gérer et visualiser vos projets immobiliers.    </p>
+                        <a href="https://codebanalfa.github.io/immobilier-/" class="btn" target="_blank">savoir plus</a>
+
+                    </div>
+                    <div class="services-content" data-image="slider.PNG">
+                        <i class="bx bx-slideshow"></i>
+                        <h3>Slider</h3>
+                        <p>Un composant visuel pour afficher des images de manière fluide.</p>
+                        <a href="./Slider/index.html" class="btn" target="_blank">savoir plus</a>
+                        
+                    </div>
+                    </div>
+                    <span class="number-page">5</span>
+                    <!-- Bouton pour tourner à la page suivante -->
+                    <span class="nexrprev-btn" data-page="turn-3">
+                        <i class='bx bx-chevron-right-circle'></i>
+                    </span>
+                </div>
+                <div class="page-back">
+                    <h1 class="title">Contactez-moi</h1>
+                    <div class="contact-box">
+                        <form action="#">
+                        <input type="text" class="field" placeholder="Votre Nom" required>
+                        <input type="email" class="field" placeholder="Votre email" required>
+                    <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Votre message"></textarea>
+                    <input type="submit" class="btn" value="Envoyer">
+                    </form>
+                    </div>
+                    <span class="number-page">6</span>
+                    <!-- Bouton pour revenir à la page précédente -->
+                    <span class="nexrprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left-circle'></i>
+                    </span>
+                    <a href="#" class="back-porfile">
+                        <p>Profile</p>
+                        <i class="bx bxs-user"></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
